@@ -3,7 +3,7 @@ class LocationsController < ProtectedController
 
   # GET /locations
   def index
-    @locations = current_user.locations.all
+    @locations = current_user.locations.order(:inspection)
 
     render json: @locations
   end
