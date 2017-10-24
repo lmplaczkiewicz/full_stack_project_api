@@ -15,10 +15,10 @@ class CompaniesController < ProtectedController
 
   # POST /companies
   def create
-    @company = current_user.companies.build(location_params)
+    @company = current_user.companies.build(company_params)
 
     if @company.save
-      render json: @company, status: :created, location: @company
+      render json: @company, status: :created, company: @company
     else
       render json: @company.errors, status: :unprocessable_entity
     end
