@@ -13,7 +13,7 @@ heroku
 Unsolved Problems:
 I wanted to incorporate a get action for a single company and to have companies linked through locations but I couldn't solve some of the issues in time.
 
-I also wanted to develop an insured objects table resource that held an array of named objects that were insured, due to my theme, that would be accessable on clicking the number for the specific location in my front-end. 
+I also wanted to develop an insured objects table resource that held an array of named objects that were insured, due to my theme, that would be accessable on clicking the number for the specific location in my front-end.
 
 Development Progress:
 Thurs - Fri
@@ -26,6 +26,9 @@ Mon - Tues
 I changed up some display messages. Changed some column names. Added in a company table resource and the CRUD actions in relation to that additional table. I changed the styling to fit two table displays and added in bootstrap alerts for error/success messages. I worked through a few final bugs and some form updates and deployed the last iteration to production.
 
 ERD:
+Phase 1: https://github.com/lmplaczkiewicz/full_stack_project_api/blob/master/Phase%201.png
+Phase 2: https://github.com/lmplaczkiewicz/full_stack_project_api/blob/master/Phase%202.png
+Phase 3: https://github.com/lmplaczkiewicz/full_stack_project_api/blob/master/Phase%203.png
 
 API Endpoints:
 
